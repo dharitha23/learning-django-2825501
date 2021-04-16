@@ -1,4 +1,5 @@
 from django.shortcuts import render
+<<<<<<< Updated upstream
 from django.http import Http404
 
 from .models import Pet
@@ -17,3 +18,7 @@ def pet_detail(request, pet_id):
     return render(request, 'pet_detail.html', {
         'pet': pet,
     })
+=======
+
+# Create your views here.
+>>>>>>> Stashed changes

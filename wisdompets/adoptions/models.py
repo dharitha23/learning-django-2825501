@@ -1,5 +1,6 @@
 from django.db import models
 
+<<<<<<< Updated upstream
 class Pet(models.Model):
     SEX_CHOICES = [('M', 'Male'), ('F', 'Female')]
     name = models.CharField(max_length=100)
@@ -17,3 +18,6 @@ class Vaccine(models.Model):
 
     def __str__(self):
         return self.name
+=======
+# Create your models here.
+>>>>>>> Stashed changes
